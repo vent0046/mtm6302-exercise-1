@@ -1,3 +1,51 @@
-body{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+    font-size: 65px;
+    color: white;
+    background-color: black;
+
 }
+
+div#emojis{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 4fr));
+    grid-template-rows: repeat(4, 4fr);
+    font-family: 'Secular One', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+div.emoji{
+    padding: 30px;
+    border: none;
+    background-color: lightpink;
+}
+
+h5{
+    font-size: 35px;
+}
+
+div{
+    border-style: solid;
+    border-color: black;
+    font-weight: bold;
+}
+
+div.border{
+    border: none;
+    padding: 40px;
+    font-size: 15px;
+    background-color: lightpink;
+}
+
+div.start{
+    border: none;
+    font-size: 15px;
+    margin-top: 70px;
+}
+
